@@ -10,8 +10,8 @@ import LinkKit
 
 class PlaidManager {
     
-    static let clientID = "64be9dbeb809c7001437e096"
-    static let secret = "b36b7dad599434bdebf0193f4ab21e"
+    static let clientID = "clientId"
+    static let secret = "secret"
 
     // Set up the API endpoint URL
     static let baseURL = "https://development.plaid.com"

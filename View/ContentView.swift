@@ -175,7 +175,7 @@ struct ContentView: View {
     }
     
     func fetchAccounts() {
-        let accessToken = "access-development-b3a66061-d776-40f0-a535-fbdcc9a1f0a8" // Get the access token from AccessTokenManager
+        let accessToken = "accessToken" // Get the access token from AccessTokenManager
 //        let accessToken = AccessTokenManager.accessToken
         print("ACCESS_TOKEN: \(accessToken)")
         guard !accessToken.isEmpty else {
